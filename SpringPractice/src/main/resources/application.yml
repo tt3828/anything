@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: practice
+  datasource: 
+    url: jdbc:h2:mem:testdb;Mode=PostgresQL
+    platform: h2
+  jpa:
+    hibernate: 
+      ddl-auto: create
+      
+server:
+  port: 8081
